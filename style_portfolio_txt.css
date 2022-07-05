@@ -1,0 +1,116 @@
+.txt_line1 {
+    margin-top: 90px;
+    font-size: 21px;
+    font-weight: 500;
+    color: gray;
+}
+
+.txt_line2 {
+    margin-top: -20px;
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.txt_line3 {
+    margin-top: -35px;
+    font-size: 21px;
+}
+
+.txt_service {
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.txt_description {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.txt_purple {
+    color: #8643DC;
+    margin-bottom: -5px;
+}
+
+@media (min-width: 1280px) {
+
+    .txt_purple_blog {
+        color: #8643DC;
+        margin-bottom: -5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .txt_blog {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .txt_purple_blog {
+        color: #8643DC;
+        margin-bottom: -5px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .txt_blog {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.txt_purple_blog {
+    color: #8643DC;
+    margin-bottom: -5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.txt_blog {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.txt_bold {
+    margin-top: -25px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.txt_testimonials {
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #636066;
+}
+
+.txt_person_1 {
+    margin-right: 5px;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+.txt_person_2 {
+    margin-right: 7px;
+    margin-top: -13px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.txt_last {
+    font-size: 34px;
+    font-weight: 500;
+}

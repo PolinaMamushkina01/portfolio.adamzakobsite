@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+html,body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    color: #25202F;
+    width: 100%;
+}
+
+header {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header, .section_about, .section_services, .section_portfolio, .section_clients, .section_testimonials, .section_blog, .section_contact_me {
+    padding-right: 140px;
+    padding-left: 140px;
+    margin-right: 0; 
+}
+
+
+
+/* COMMON STYLES */
+
+.text_and_line {
+    margin-bottom: 35px;
+}
+
+
+
+/* HEADER */
+
+.a_pale {
+    color: gray;
+    text-decoration: none;
+}
+
+.a_not_pale {
+    color: black;
+    text-decoration: none;
+}
+
+.header_div1 {
+    width: 11%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header_div2 {
+    margin-top: 0px;
+    width: 36%;
+    height: 70px;
+    display: inline-block;
+}
+.header_div3 {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    right: 140px;
+    height: 70px;
+    display: inline-block;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* ABOUT SECTION */
+
+.button_talk {
+    margin-top: 22px;
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    background-color: #8643DC;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.button_talk p {
+    margin-top: 9px;
+}
+
+
+
+/* SERVICES SECTION */
+
+.section_services {
+    margin-top: 250px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+.column1, .column2, .column3 {
+    width: 30%;
+}
+
+.label_service {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* PORTFOLIO SECTION */
+
+.section_portfolio {
+    background: url("gradient_portfolio.png") repeat-x;
+    background-size: contain;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+.right_and_left {                           /* LEFT - All Creative Projects, RIGHT - Explore More */
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    position: relative;
+    margin-top: -90px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.right a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #25202F;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* TESTIMONIALS SECTION */
+
+.section_testimonials {
+    background: url("gradient_testimonials.png") repeat-x;
+    background-size: contain;
+    height: 700px;
+    margin-top: -150px;
+    padding-top: 150px;
+}
+
+.div_quote {
+    margin: auto;
+    width: 550px;
+}
+
+
+
+/* BLOG SECTION */ 
+
+.section_blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.blog_column2, .blog_column3, .blog_column4 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media (min-width: 1280px) {
+
+    .blog_column3::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 200px;
+        white-space: pre;
+        content: '20 June/2020';
+        color: white;
+        font-size: 14px;
+    }
+    .blog_column3_pseudo::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 220px;
+        white-space: pre;
+        content: 'New devices and\A applications come to\Athe market.';
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .blog_column3_rect::before {
+        z-index: 1;
+        content: '';
+        background-image: url("blog_pic_2_rect.png");
+        background-size: contain;
+        position: absolute;
+        width: 230px;
+        height: 315px;  
+    }
+
+    .blog_column4::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 220px;
+        white-space: pre;
+        content: '20 June/2020';
+        color: white;
+        font-size: 14px;
+    }
+    .blog_column4_pseudo::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 245px;
+        white-space: pre;
+        content: 'Every day providing\Asolutions to problems.';
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .blog_column4_rect::before {
+        z-index: 1;
+        content: '';
+        background-image: url("blog_pic_3_rect.png");
+        background-size: contain;
+        position: absolute;
+        width: 230px;
+        height: 315px;  
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .blog_column3::before {
+        margin-left: 10px;
+        margin-top: 140px;
+        font-size: 12px;
+        z-index: 2;
+        position: absolute;
+        white-space: pre;
+        content: '20 June/2020';
+        color: white;
+    }
+    .blog_column3_pseudo::before {
+        margin-left: 10px;
+        margin-top: 160px;
+        font-size: 15px;
+        z-index: 2;
+        position: absolute;
+        white-space: pre;
+        content: 'New devices and\A applications come to\Athe market.';
+        color: white;
+        font-weight: 600;
+    }
+    .blog_column3_rect::before {
+        z-index: 1;
+        content: '';
+        background-image: url("blog_pic_2_rect.png");
+        background-size: contain;
+        position: absolute;
+        width: 175px;
+        height: 240px;  
+    }
+
+    .blog_column4::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 160px;
+        white-space: pre;
+        content: '20 June/2020';
+        color: white;
+        font-size: 12px;
+    }
+    .blog_column4_pseudo::before {
+        z-index: 2;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 180px;
+        white-space: pre;
+        content: 'Every day providing\Asolutions to problems.';
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .blog_column4_rect::before {
+        z-index: 1;
+        content: '';
+        background-image: url("blog_pic_3_rect.png");
+        background-size: contain;
+        position: absolute;
+        width: 175px;
+        height: 240px;  
+    }        
+}
+
+.blog_column3::before {
+    margin-left: 10px;
+    margin-top: 140px;
+    font-size: 12px;
+    z-index: 2;
+    position: absolute;
+    white-space: pre;
+    content: '20 June/2020';
+    color: white;
+}
+.blog_column3_pseudo::before {
+    margin-left: 10px;
+    margin-top: 160px;
+    font-size: 15px;
+    z-index: 2;
+    position: absolute;
+    white-space: pre;
+    content: 'New devices and\A applications come to\Athe market.';
+    color: white;
+    font-weight: 600;
+}
+.blog_column3_rect::before {
+    z-index: 1;
+    content: '';
+    background-image: url("blog_pic_2_rect.png");
+    background-size: contain;
+    position: absolute;
+    width: 175px;
+    height: 240px;  
+}
+
+.blog_column4::before {
+    z-index: 2;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 160px;
+    white-space: pre;
+    content: '20 June/2020';
+    color: white;
+    font-size: 12px;
+}
+.blog_column4_pseudo::before {
+    z-index: 2;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 180px;
+    white-space: pre;
+    content: 'Every day providing\Asolutions to problems.';
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.blog_column4_rect::before {
+    z-index: 1;
+    content: '';
+    background-image: url("blog_pic_3_rect.png");
+    background-size: contain;
+    position: absolute;
+    width: 175px;
+    height: 240px;  
+}        
+
+/* CONTACT ME SECTION */
+
+.section_contact_me {
+    margin-bottom: 50px;
+    background: url("gradient_contact_me.png") repeat-x;
+    background-size: contain;
+    height: 250px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+.section_contact_me .txt_bold {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.right_contact_me {
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500;
+    color: #8643DC !important;
+    position: relative;
+    margin-top: -30px;
+}
+
+.right_contact_me a {
+    color: #8643DC !important;
+}
+
+.right_attach_and_arrow {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -10px;
+}
+
+#warning_label {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 20px;
+    color: red;
+}
+
+.block {
+    display: block;
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(168, 160, 176) !important;
+}
+    
+input:-moz-placeholder { /* Firefox 18- */
+    color: rgb(168, 160, 176) !important;  
+}
+    
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(168, 160, 176) !important;  
+}
+    
+input:-ms-input-placeholder {  
+    color: rgb(168, 160, 176) !important;  
+}
+
+.form_field {
+    outline: none;
+    border: 0px;
+    width: 100%;
+    padding-bottom: 13px;
+    border-bottom: 1px solid#DAD2E3;
+    color: #25202F;
+    background-color: rgba(1, 1, 1, 0);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+.form_button {
+    color: white;
+    background-color: #8643DC;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 1px solid #8643DC;
+    border-radius: 100px;
+    padding: 10px;
+
+    margin-top: -17px;
+    height: 50px;
+    width: 175px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.div_last {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.div_images_last {
+    margin: auto;
+    margin-top: -10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

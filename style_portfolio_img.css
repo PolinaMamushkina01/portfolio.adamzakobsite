@@ -1,0 +1,445 @@
+/* ABOUT SECTION */
+
+.img_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.img_menu {
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+}
+
+.img_user {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    right: 80px;
+    width: 500px;
+    height: 400px;
+}
+
+@media (min-width: 1280px) {
+
+    .img_user {
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0px;
+        width: 940px;
+        height: 810px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .img_user {
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0px;
+        width: 790px;
+        height: 690px;
+    }
+
+}
+
+.img_point1 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    right: 330px;
+    top: 22px;
+}
+
+.img_point2 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    right: 200px;
+    top: 240px;
+}
+
+.img_point3 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    right: 570px;
+    top: 655px;
+}
+
+.img_point4 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    right: 660px;
+    top: 155px;
+}
+
+.img_point5 {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    right: 60px;
+    top: 290px;
+}
+
+.img_point6 {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    right: 120px;
+    top: 540px;
+}
+
+.img_rect {
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    right: 30px;
+    top: 163px;
+}
+
+.img_zigzag1 {
+    position: absolute;
+    z-index: 2;
+    height: 44px;
+    width: 62px;
+    right: 200px;
+    top: 174px;
+}
+
+.img_zigzag2 {
+    position: absolute;
+    z-index: 2;
+    height: 44px;
+    width: 62px;
+    right: 180px;
+    top: 406px;
+}
+
+.img_zigzag3 {
+    position: absolute;
+    z-index: 2;
+    height: 44px;
+    width: 62px;
+    right: 665px;
+    top: 445px;
+}
+
+
+
+
+/* PORTFOLIO SECTION */
+
+.img_arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.img_photo1 {
+    width: 49%;
+    height: 390px;
+    box-shadow: 0px 20px 50px rgba(220, 192, 255, 0.3);
+}
+
+.img_photo2 {
+    width: 49%;
+    height: 390px;
+    box-shadow: 0px 20px 50px rgba(220, 192, 255, 0.3);
+}
+
+
+
+
+/* BLOG SECTION */
+
+.img_blog_pic_1 {
+    width: 240px; /*315px;*/
+    height: 160px; /*210px;*/
+}
+
+.img_blog_pic_2 {
+    width: 175px; /*230px;*/
+    height: 240px; /*315px;*/
+}
+
+.img_blog_pic_3 {
+    width: 175px; /*230px;*/
+    height: 240px; /*315px;*/
+}
+
+@media (min-width: 1280px) {
+    .img_blog_pic_1 {
+        width: 315px;
+        height: 210px;
+    }
+    
+    .img_blog_pic_2 {
+        width: 230px;
+        height: 315px;    
+    }
+    
+    .img_blog_pic_3 {
+        width: 230px;
+        height: 315px;    
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .img_blog_pic_1 {
+        width: 240px; /*315px;*/
+        height: 160px; /*210px;*/
+    }
+    
+    .img_blog_pic_2 {
+        width: 175px; /*230px;*/
+        height: 240px; /*315px;*/
+    }
+    
+    .img_blog_pic_3 {
+        width: 175px; /*230px;*/
+        height: 240px; /*315px;*/
+    }
+}
+
+
+
+
+/* TESTIMONIALS SECTION */
+
+.img_quote {
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.img_center_person {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 130px;
+    height: 130px;
+}
+
+.img_pager {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+/* CLIENTS SECTION */
+
+@media (max-width: 1024px) {
+
+    .clients_photos {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 800px;
+    }
+
+    .img_clients {
+        flex-basis: 22%;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+
+    .img_clients_Slack {  
+        left: 50px;
+    }
+
+    .img_clients_Medium {  
+        left: 0px;
+    }
+
+    .img_clients_Microsoft {  
+        right: 50px;
+    }
+
+    .img_clients_Zeplin {  
+        right: 100px;
+    }
+
+    .img_clients_Shopify {  
+        right: 150px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .clients_photos {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 800px;
+        /*
+        flex-direction: row;
+        width: 900px;*/
+    }
+
+    .img_clients {
+        flex-basis: 22%;
+        width: 220px;
+        height: 220px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    
+    .img_clients_Slack {  
+        left: 110px;
+    }
+    
+    .img_clients_Medium {  
+        left: 40px;
+    }
+    
+    .img_clients_Microsoft {  
+        right: 30px;
+    }
+    
+    .img_clients_Zeplin {  
+        right: 100px;
+    }
+    
+    .img_clients_Shopify {  
+        right: 170px;
+    }  
+}
+
+@media (min-width: 1280px) {
+    
+    .clients_photos {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 1100px;
+    }
+
+    .img_clients {
+        flex-basis: 22%;
+        width: 280px;
+        height: 280px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .img_clients_Slack {
+        left: -50px;
+    }
+
+    .img_clients_Medium {  
+        left: -115px;
+    }
+
+    .img_clients_Microsoft {  
+        right: 180px;
+    }
+
+    .img_clients_Zeplin {  
+        right: 245px;
+    }
+
+    .img_clients_Shopify {  
+        right: 315px;
+    }
+
+}
+
+
+
+
+
+
+
+.img_line {
+    width: 50px;
+    height: 2px;
+}
+
+/*
+
+.clients_photos {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.img_clients {
+    margin-left: -100px;
+    width: 280px;
+    height: 280px;
+
+    margin-bottom: 35px;
+}
+
+*/
+
+
+
+/*display: flex;
+margin-right: -50px;
+margin-left: -40px;*/
+
+
+
+
+
+
+/* SERVICES SECTION */
+
+.img_service {
+    width: 62px;
+    height: 61px;
+}
+
+
+
+
+/* CONTACT ME SECTION */
+
+.img_arrow_contact {
+    width: 27px;
+    height: 25px;
+    margin-top: -5px;
+    margin-left: 13px;
+    margin-right: -10px;
+}
+
+.img_attach {
+    width: 17px;
+    height: 17px;
+}
+
+
+
+/* LAST SECTION */
+
+.img_last {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+
+
+
